@@ -1,8 +1,8 @@
 {
+    "homepage": "https://Dmytro1117.github.io/social-app-brains",
+  "private": true,
   "name": "social-app-brains",
   "version": "1.0.0",
-  "description": "Друзі, вітаю вас усіх в проєкті нашого практикуму. Саме тут ви будете писати код та створювати новий функціонал для додатка. В проєкті ви знайдете коментарі, котрі допоможуть вам розібратися з кодом. Всім удачі!",
-  "keywords": [],
   "main": "src/index.js",
   "dependencies": {
     "loader-utils": "3.2.1",
@@ -18,6 +18,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+      "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
