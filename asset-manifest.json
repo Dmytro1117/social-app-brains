@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.js": "/social-app-brains/static/js/main.281c0b43.js",
+    "static/media/family-natur.png": "/social-app-brains/static/media/family-natur.ca69a2586ceeb8dfe11f.png",
+    "static/media/son-gnat.png": "/social-app-brains/static/media/son-gnat.8600ff6b0e2db09caf1a.png",
+    "static/media/footh-new.png": "/social-app-brains/static/media/footh-new.b815d39be0afed76c0d7.png",
+    "static/media/man-cloth.png": "/social-app-brains/static/media/man-cloth.36393b05d6d7e61cb30c.png",
+    "static/media/settings.svg": "/social-app-brains/static/media/settings.660c6bb1d6fa8feebec4959a026114d4.svg",
+    "static/media/groups.svg": "/social-app-brains/static/media/groups.390524002da616f33c472f974b63244c.svg",
+    "static/media/data.svg": "/social-app-brains/static/media/data.16d4c191d719eed9f6d1efdf84250c26.svg",
+    "static/media/read.svg": "/social-app-brains/static/media/read.cefea600a21ef41cedf3f6ded5de103d.svg",
+    "static/media/unread.svg": "/social-app-brains/static/media/unread.3bf9c7bdf2933021c883b74408354b94.svg",
+    "static/media/alert.svg": "/social-app-brains/static/media/alert.dbb927a8db528549a3613b2f675c1f62.svg",
+    "static/media/battery.svg": "/social-app-brains/static/media/battery.aef7fb445321728b78a252c1160865e1.svg",
+    "index.html": "/social-app-brains/index.html",
+    "static/media/send.svg": "/social-app-brains/static/media/send.e6def9eefda7f5329239ee66ee0aeb82.svg",
+    "main.281c0b43.js.map": "/social-app-brains/static/js/main.281c0b43.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.281c0b43.js"
+  ]
+}
