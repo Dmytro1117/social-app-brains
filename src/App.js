@@ -24,7 +24,7 @@ export default function App() {
         <Route path="/dialog" element={<Dialog />} />
 
         {/* Якщо користувач заходить на головну сторінку, то його переводять на сторінку /chats */}
-        <Route path="/" element={<Navigate to="/chats" />} />
+        <Route path="/" element={<Navigate to="/settings" />} />
       </Routes>
     </BrowserRouter>
   );
