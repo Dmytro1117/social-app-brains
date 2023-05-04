@@ -14,7 +14,7 @@ const root = createRoot(rootElement);
 // Генеруємо наш інтерфейс в браузері
 root.render(
   <StrictMode>
-    <BrowserRouter basename="/social-app-brains">
+    <BrowserRouter>
       <App />
     </BrowserRouter>
   </StrictMode>
