@@ -12,10 +12,10 @@ import Dialog from "./page/Dialog";
 // Генеруємо наш додаток, який потім у файлі index.js ми будемо виводити в браузері
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/social-app-brains">
       <Routes>
         {/* Підключаємо сторінку Чати за посиланням /chats */}
-        <Route path="/chats" element={<Chats />} />
+        <Route path="/" element={<Chats />} />
 
         {/* Підключаємо сторінку Налаштування за посиланням /settings */}
         <Route path="/settings" element={<Settings />} />
@@ -24,7 +24,7 @@ export default function App() {
         <Route path="/dialog" element={<Dialog />} />
 
         {/* Якщо користувач заходить на головну сторінку, то його переводять на сторінку /chats */}
-        <Route path="/" element={<Navigate to="/settings" />} />
+        {/* <Route path="/" element={<Navigate to="/settings" />} /> */}
       </Routes>
     </BrowserRouter>
   );
